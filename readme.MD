@@ -9,6 +9,9 @@
   - It will store those pages into a folder /data/Topic/pageContent
 
 
+# DS
+- List or Set
+  - if the topics.txt file grows what are chances of duplictes being placed??
 
 
 # Neural Network
