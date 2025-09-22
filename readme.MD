@@ -12,6 +12,9 @@
 - New way to get data from wikipedia
   - Figure out if the html is same throughout the each article within wikipedia
   - If it is we can use BS4 and pass values representing what it will scrape for
+- Okay i think i found a better approach which i explained above BS4 and requests...... I HOPE it works against larger list of URLs..
+  - implement a way to take in a txt like of urls
+  - save to a folder with that given topic/title
 
 
 # DS
