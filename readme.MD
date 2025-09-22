@@ -15,7 +15,7 @@
 - Okay i think i found a better approach which i explained above BS4 and requests...... I HOPE it works against larger list of URLs..
   - implement a way to take in a txt like of urls
   - save to a folder with that given topic/title
-
+  - Create new fucntion that reads from a txt file and passes each line into a function that gets that data
 
 # DS
 - List or Set
