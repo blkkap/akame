@@ -9,6 +9,11 @@
   - It will store those pages into a folder /data/Topic/pageContent
 
 
+- New way to get data from wikipedia
+  - Figure out if the html is same throughout the each article within wikipedia
+  - If it is we can use BS4 and pass values representing what it will scrape for
+
+
 # DS
 - List or Set
   - if the topics.txt file grows what are chances of duplictes being placed??
