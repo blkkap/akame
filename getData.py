@@ -1,4 +1,3 @@
-# import wikipedia 
 import requests
 from bs4 import BeautifulSoup
 import os
@@ -10,7 +9,6 @@ def getData():
                'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'}
     
     response = requests.get(url, headers=headers)
-    print(response.status_code)
     
     soup = BeautifulSoup(response.content, 'html.parser')
    
@@ -20,6 +18,10 @@ def getData():
     paragraphs = soup.select("p")
     for p in paragraphs:
         print(p.text)
+
+    p_text = '\n'.join(para.text for para in paragraphs[:])
+    with open('data/p_text', 'w', encoding='utf-8') as file:
+        file.write(p_text)
     
     
 
