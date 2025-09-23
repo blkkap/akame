@@ -17,6 +17,10 @@
   - save to a folder with that given topic/title
   - Create new fucntion that reads from a txt file and passes each line into a function that gets that data
 
+
+# NN
+- Now to train a NN.. But How? 
+
 # DS
 - List or Set
   - if the topics.txt file grows what are chances of duplictes being placed??
