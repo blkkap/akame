@@ -8,6 +8,7 @@
   - It will downlaod based off the list
   - It will store those pages into a folder /data/Topic/pageContent
 
+- Get more data.... Books maybe?(I AM BATMAN)
 
 - New way to get data from wikipedia
   - Figure out if the html is same throughout the each article within wikipedia
