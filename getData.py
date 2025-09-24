@@ -34,9 +34,24 @@ def getData():
             print(f"error fetching {url}: {e}")
 
 
+
+def getBookData():
+    from textract import process
+
+    title = 'five-dialogues'
+
+    fileIn =f'/Users/blkcap/Desktop/Rocho/Book$/BOOK$$/Philosophy/{title}.epub'
+    fileOut = f'data/{title}.txt'
+    
+    text = process(fileIn)
+
+    with open(fileOut, 'wb') as file:
+        file.write(text)
+
+
 if __name__ == "__main__":
     
-    getData()
-    
+    #getData()
+    getBookData()
 
 
