@@ -28,7 +28,7 @@
 
 # Updates
 - This is a test update: DID you get them BATMAN? 
-
+  - Yes Batman got updates
 # DS
 - List or Set
   - if the topics.txt file grows what are chances of duplictes being placed??

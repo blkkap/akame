@@ -36,7 +36,7 @@ class Net(nn.Module):
         x = self.fc2(x)
         return x
     
-device = torch.device("mps")
+device = torch.device("cuda")
 print(device)
 model = Net().to(device)
 
