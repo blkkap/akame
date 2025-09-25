@@ -40,7 +40,7 @@ def getBookData():
 
     title = 'five-dialogues'
 
-    fileIn =f'/Users/blkcap/Desktop/Rocho/Book$/BOOK$$/Philosophy/{title}.epub'
+    fileIn =f'/BOOK$$/Philosophy/{title}.epub'
     fileOut = f'data/{title}.txt'
     
     text = process(fileIn)
